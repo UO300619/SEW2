@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026: Juegos</title>
+
+    <meta name="author" content="Enol Ruiz Barcala" />
+    <meta name="description" content="Documento juegos.html del proyecto LaVuelta2026" />
+   
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+
+    <link rel="icon" href="multimedia/favicon.ico" />
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html" title="Página principal de LaVuelta2026">LaVuelta2026</a></h1>
+        <nav>
+            <a href="index.html" title="Página principal de LaVuelta2026">Inicio</a>
+            <a href="ciclista.html" title="Información sobre el ciclista">Ciclista</a>
+            <a href="equipo.html" title="Información sobre el equipo">Equipo</a>
+            <a href="etapa.html" title="Información sobre la etapa">Etapa</a>
+            <a href="meteorologia.html" title="Previsión meteorológica de la etapa">Meteorología</a>
+            <a href="clasificaciones.html" title="Clasificaciones de LaVuelta2026">Clasificaciones</a>
+            <a href="juegos.html" aria-current="page" title="Juegos sobre LaVuelta2026">Juegos</a>
+            <a href="ayuda.html" title="Ayuda para usar el sitio web">Ayuda</a>
+        </nav>
+    </header>
+
+    <nav aria-label="migas">
+        <ol>
+            <li><a href="index.html" title="Página principal de LaVuelta2026">Inicio</a></li>
+            <li>>></li>
+            <li>Juegos</li>
+        </ol>
+    </nav>
+
+    <main>
+        <h2>Juegos</h2>
+
+        <section>
+            <h3>¿Conoces la etapa?</h3>
+            <p>Pon a prueba lo que sabes sobre la etapa de LaVuelta2026. El juego consta de 10 preguntas sobre la información de la etapa. Si tienes dudas, puedes consultar la página Etapa del menú de navegación antes de responder.</p>
+            <form>
+                <fieldset>
+                    <legend>Etapa 5: Falset. Costa Daurada - Roquetes. Terres de l'Ebre</legend>
+                    <p>
+                        <label for="numeroEtapa">¿Qué número de etapa es?</label>
+                        <input type="number" id="numeroEtapa" min="1" max="21" />
+                    </p>
+                    <p>
+                        <label for="fechaEtapa">¿En qué fecha se disputó la etapa?</label>
+                        <input type="date" id="fechaEtapa" min="2026-08-22" max="2026-09-13" />
+                    </p>
+                    <p>
+                        <label for="salidaEtapa">¿Cuál fue el lugar de salida de la etapa?</label>
+                        <select id="salidaEtapa" required>
+                            <option value="">Seleccione una opción</option>
+                            <option>Mónaco</option>
+                            <option>Gruissan</option>
+                            <option>Andorra la Vella</option>
+                            <option>Falset</option>
+                            <option>Alcossebre</option>
+                            <option>Vall d'Alba</option>
+                            <option>Puçol</option>
+                            <option>Villajoyosa</option>
+                            <option>Alcaraz</option>
+                            <option>Cartagena</option>
+                            <option>Vera</option>
+                            <option>Almuñécar</option>
+                            <option>Jaén</option>
+                            <option>Palma del Río</option>
+                            <option>Cortegana</option>
+                            <option>Dos Hermanas</option>
+                            <option>El Puerto de Santa María</option>
+                            <option>Vélez-Málaga</option>
+                            <option>La Calahorra</option>
+                            <option>Granada</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="llegadaEtapa">¿Cuál fue el lugar de llegada de la etapa?</label>
+                        <select id="llegadaEtapa" required>
+                            <option value="">Seleccione una opción</option>
+                            <option>Mónaco</option>
+                            <option>Manosque</option>
+                            <option>Font-Romeu</option>
+                            <option>Andorra la Vella</option>
+                            <option>Roquetes</option>
+                            <option>Castellón</option>
+                            <option>Aramón Valdelinares</option>
+                            <option>Xeraco</option>
+                            <option>Alto de Aitana</option>
+                            <option>Elche de la Sierra</option>
+                            <option>Lorca</option>
+                            <option>Calar Alto</option>
+                            <option>Loja</option>
+                            <option>Sierra de la Pandera</option>
+                            <option>Córdoba</option>
+                            <option>Palos de la Frontera</option>
+                            <option>Sevilla</option>
+                            <option>Jerez de la Frontera</option>
+                            <option>Peñas Blancas</option>
+                            <option>Collado del Alguacil</option>
+                            <option>Granada</option>
+                        </select>
+                    </p>
+                    <p>
+                        ¿Qué tipo de etapa es?
+                        <input type="radio" id="tipoLlana" value="llana" />
+                        <label for="tipoLlana">Llana</label>
+                        <input type="radio" id="tipoMediaMontana" value="mediaMontana" />
+                        <label for="tipoMediaMontana">Media montaña</label>
+                        <input type="radio" id="tipoMontana" value="montana" />
+                        <label for="tipoMontana">Montaña</label>
+                        <input type="radio" id="tipoCRI" value="contrarrelojIndividual" />
+                        <label for="tipoCRI">Contrarreloj individual</label>
+                        <input type="radio" id="tipoCRE" value="contrarrelojEquipos" />
+                        <label for="tipoCRE">Contrarreloj por equipos</label>
+                    </p>
+                    <p>
+                        ¿Qué hitos hay en la etapa?
+                        <input type="checkbox" id="hitoPuerto" value="puertoMontana" />
+                        <label for="hitoPuerto">Puerto de montaña</label>
+                        <input type="checkbox" id="hitoPuertoEspecial" value="puertoEspecial" />
+                        <label for="hitoPuertoEspecial">Puerto categoría especial</label>
+                        <input type="checkbox" id="hitoSprintIntermedio" value="sprintIntermedio" />
+                        <label for="hitoSprintIntermedio">Sprint intermedio</label>
+                        <input type="checkbox" id="hitoSprintBonificado" value="sprintBonificado" />
+                        <label for="hitoSprintBonificado">Sprint bonificado</label>
+                        <input type="checkbox" id="hitoNinguno" value="sinHitos" />
+                        <label for="hitoNinguno">Sin hitos</label>
+                    </p>
+                    <p>
+                        <label for="durezaEtapa">Valora la dureza de la etapa (1 = muy fácil, 10 = muy dura):</label>
+                        <input type="range" id="durezaEtapa" min="1" max="10" step="1" value="5" />
+                    </p>
+                    <p>
+                        <label for="longitudEtapa">¿Cuál es la longitud de la etapa en kilómetros?</label>
+                        <input type="number" id="longitudEtapa" min="0" step="0.1" />
+                    </p>
+                    <p>
+                        <label for="desnivelEtapa">¿Cuál es el desnivel acumulado de la etapa en metros?</label>
+                        <input type="number" id="desnivelEtapa" min="0" step="1" />
+                    </p>
+                    <p>
+                        <label for="descripcionEtapa">Describe brevemente la etapa:</label>
+                        <textarea id="descripcionEtapa" rows="5" cols="50" maxlength="500" placeholder="Escribe aquí tu descripción de la etapa"></textarea>
+                    </p>
+                    <p>
+                        <label for="nombreParticipante">Nombre del participante:</label>
+                        <input type="text" id="nombreParticipante" maxlength="100" autocomplete="name" />
+                    </p>
+                </fieldset>
+                <p>
+                    <button type="submit">Enviar respuestas</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Enol Ruiz Barcala</p>
+        <address>
+            <a href="mailto:UO300619@uniovi.es">UO300619@uniovi.es</a>
+        </address>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,76 @@
+
+<!ELEMENT etapa (nombreE, numeroE, longitud, fecha, tiempoGanador,
+                 velocidadGanador, desnivel, ciudadInicio, ciudadFin,
+                 tipoEtapa, referencias, imagenes, videos, podcasts,
+                 origen, meta, hitos,puntos,vencedores, clasificados, equipos)>
+
+<!ELEMENT nombreE (#PCDATA)>
+<!ELEMENT numeroE (#PCDATA)>
+
+<!ELEMENT longitud (#PCDATA)>
+<!ATTLIST longitud unidad CDATA #FIXED "km">
+
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT tiempoGanador (#PCDATA)>
+
+<!ELEMENT velocidadGanador (#PCDATA)>
+<!ATTLIST velocidadGanador unidad CDATA #FIXED "km/h">
+
+<!ELEMENT desnivel (#PCDATA)>
+<!ATTLIST desnivel unidad CDATA #FIXED "m">
+
+<!ELEMENT ciudadInicio (#PCDATA)>
+<!ELEMENT ciudadFin (#PCDATA)>
+
+<!ELEMENT tipoEtapa (#PCDATA)>
+
+<!ELEMENT referencias (referencia+)>
+<!ELEMENT referencia (#PCDATA)>
+<!ATTLIST referencia url CDATA #IMPLIED>
+
+<!ELEMENT imagenes (imagen+)>
+<!ELEMENT imagen (#PCDATA)>
+<!ATTLIST imagen url CDATA #REQUIRED>
+
+<!ELEMENT videos (video+)>
+<!ELEMENT video (#PCDATA)>
+<!ATTLIST video url CDATA #REQUIRED>
+
+<!ELEMENT podcasts (podcast+)>
+<!ELEMENT podcast (#PCDATA)>
+<!ATTLIST podcast url CDATA #REQUIRED>
+
+<!ELEMENT coordenada EMPTY>
+<!ATTLIST coordenada
+          longitud       CDATA #REQUIRED
+          unidadLongitud CDATA #FIXED "grados"
+          latitud        CDATA #REQUIRED
+          unidadLatitud  CDATA #FIXED "grados"
+          altitud        CDATA #REQUIRED
+          unidadAltitud  CDATA #FIXED "m">
+
+<!ELEMENT origen (coordenada)>
+<!ELEMENT meta (coordenada)>
+
+<!ELEMENT hitos (hito*)>
+<!ELEMENT hito (coordenada)>
+<!ATTLIST hito
+          tipo      (puertoMontana | sprintIntermedio |
+                      sprintBonificado | puntoAnonimo) #REQUIRED
+          categoria (primera | segunda | tercera | especial |
+                      bonificado) #IMPLIED
+          nombre    CDATA #IMPLIED
+          distancia CDATA #REQUIRED>
+
+<!ELEMENT puntos (punto*)>
+<!ELEMENT punto (coordenada)>
+
+<!ELEMENT persona (#PCDATA)>
+<!ATTLIST persona diferencia CDATA #IMPLIED>
+
+<!ELEMENT vencedores (persona, persona, persona)>
+<!ELEMENT clasificados (persona, persona, persona)>
+
+<!ELEMENT equipo (#PCDATA)>
+<!ATTLIST equipo diferencia CDATA #IMPLIED>
+<!ELEMENT equipos (equipo, equipo, equipo)>

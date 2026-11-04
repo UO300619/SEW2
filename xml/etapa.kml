@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Etapa 5 - Falset. Costa Daurada - Roquetes. Terres de l'Ebre</name>
+    <Style id="rojo">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="verde">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="azul">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="amarillo">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Ruta de la etapa</name>
+      <Style>
+        <LineStyle>
+          <color>ff00a5ff</color>
+          <width>4</width>
+        </LineStyle>
+      </Style>
+      <LineString>
+        <extrude>0</extrude>
+        <tessellate>1</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>0.8203,41.1458,350
+0.817,41.150,364
+0.774,41.128,290
+0.790,41.128,271
+0.75389,41.10361,220
+0.6472,41.0925,50
+0.5347,41.0342,35
+0.5758,41.0064,90
+0.7175,40.8722,142
+0.7139,40.8114,5
+0.6069,40.7842,3
+0.7083,40.7233,1
+0.7414,40.6811,1
+0.5806,40.7093,10
+0.5211,40.8126,20
+0.5300,40.8102,10
+0.5133,40.9294,30
+0.4711,40.9611,150
+0.4386,40.9269,630
+0.4842,40.7994,26
+0.4986,40.7967,20
+0.50389,40.8225,14
+0.5044,40.8189,9.1</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Salida: Falset. Costa Daurada</name>
+      <description>Punto de salida de la etapa</description>
+      <styleUrl>#rojo</styleUrl>
+      <Point>
+        <coordinates>0.8203,41.1458,350</coordinates>
+        <altitudeMode>clampToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Meta</name>
+      <description>Punto de meta de la etapa</description>
+      <styleUrl>#rojo</styleUrl>
+      <Point>
+        <coordinates>0.5044,40.8189,9.1</coordinates>
+        <altitudeMode>clampToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Puerto de Paüls</name>
+      <description>Tipo: puertoMontana. Categoría: tercera. Distancia desde la salida: 148.4 km. Altitud: 259 m</description>
+      <styleUrl>#verde</styleUrl>
+      <Point>
+        <coordinates>0.4386,40.9269,259</coordinates>
+        <altitudeMode>clampToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sprint intermedio de Tivenys</name>
+      <description>Tipo: sprintIntermedio. Distancia desde la salida: 114.7 km. Altitud: 58 m</description>
+      <styleUrl>#azul</styleUrl>
+      <Point>
+        <coordinates>0.5300,40.8102,58</coordinates>
+        <altitudeMode>clampToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sprint bonificado de Tivenys</name>
+      <description>Tipo: sprintBonificado. Distancia desde la salida: 114.7 km. Altitud: 58 m</description>
+      <styleUrl>#azul</styleUrl>
+      <Point>
+        <coordinates>0.5300,40.8102,58</coordinates>
+        <altitudeMode>clampToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Control de Amposta</name>
+      <description>Tipo: puntoAnonimo. Distancia desde la salida: 95.0 km. Altitud: 20 m</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.5806,40.7093,20</coordinates>
+        <altitudeMode>clampToGround</altitudeMode>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

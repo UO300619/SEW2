@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE etapa SYSTEM "etapa.dtd">
+<etapa>
+    <nombreE>Falset. Costa Daurada - Roquetes. Terres de l'Ebre</nombreE>
+    <numeroE>5</numeroE>
+    <longitud unidad="km">173.3</longitud>
+    <fecha>2026-08-26</fecha>
+    <tiempoGanador>3:47:02</tiempoGanador>
+    <velocidadGanador unidad="km/h">45.8</velocidadGanador>
+    <desnivel unidad="m">1662</desnivel>
+    <ciudadInicio>Falset</ciudadInicio>
+    <ciudadFin>Roquetes</ciudadFin>
+    <tipoEtapa>mediaMontana</tipoEtapa>
+
+    <referencias>
+        <referencia url="https://procyclinguk.com/vuelta-a-espana-2026-stage-5-matthew-brennan-wins-again-in-roquetes-as-tadej-pogacar-stays-in-red/">Crónica de la etapa 5</referencia>
+        <referencia url="https://ebredigital.cat/?p=313191">Presentación de la etapa en las Terres de l'Ebre</referencia>
+        <referencia url="https://rouleur.cc/racing/races/vuelta-a-espana/2026/stages/5">Ficha de la etapa 5 - Vuelta a España 2026</referencia>
+    </referencias>
+
+    <imagenes>
+        <imagen url="../multimedia/salida.jpeg">Salida de la etapa en Falset, Costa Daurada</imagen>
+        <imagen url="../multimedia/llegada.jpg">Llegada de la etapa en Roquetes, Terres de l'Ebre</imagen>
+    </imagenes>
+
+    <videos>
+        <video url="../multimedia/salidaEtapa.mp4">Resumen de la etapa 5 de la Vuelta a España 2026</video>
+    </videos>
+
+    <podcasts>
+        <podcast url="../multimedia/analisisEtapa5.mp3">Análisis y debate sobre la etapa 5</podcast>
+    </podcasts>
+
+    <origen>
+        <coordenada longitud="0.8203" latitud="41.1458" altitud="350"/>
+    </origen>
+
+    <meta>
+        <coordenada longitud="0.5044" latitud="40.8189" altitud="9.1"/>
+    </meta>
+
+    <hitos>
+        <hito tipo="puertoMontana" categoria="tercera" nombre="Puerto de Paüls" distancia="148.4">
+            <coordenada longitud="0.4386" latitud="40.9269" altitud="259"/>
+        </hito>
+        <hito tipo="sprintIntermedio" nombre="Sprint intermedio de Tivenys" distancia="114.7">
+            <coordenada longitud="0.5300" latitud="40.8102" altitud="58"/>
+        </hito>
+        <hito tipo="sprintBonificado" nombre="Sprint bonificado de Tivenys" distancia="114.7">
+            <coordenada longitud="0.5300" latitud="40.8102" altitud="58"/>
+        </hito>
+        <hito tipo="puntoAnonimo" nombre="Control de Amposta" distancia="95.0">
+            <coordenada longitud="0.5806" latitud="40.7093" altitud="20"/>
+        </hito>
+    </hitos>
+
+    <puntos>
+        <punto>
+            <coordenada longitud="0.817" latitud="41.150" altitud="364"/>
+        </punto>
+        <punto>
+            <coordenada longitud="0.774" latitud="41.128" altitud="290"/>
+        </punto>
+        <punto>
+            <coordenada longitud="0.790" latitud="41.128" altitud="271"/>
+        </punto>
+        <punto>
+            <coordenada longitud="0.75389" latitud="41.10361" altitud="220"/>
+        </punto>
+        <punto>
+            <coordenada longitud="0.6472" latitud="41.0925" altitud="50"/>
+        </punto>
+        <punto>
+            <coordenada longitud="0.5347" latitud="41.0342" altitud="35"/>
+        </punto>
+        <punto>
+            <coordenada longitud="0.5758" latitud="41.0064" altitud="90"/>
+        </punto>
+        <punto>
+            <coordenada longitud="0.7175" latitud="40.8722" altitud="142"/>
+        </punto>
+        <punto>
+            <coordenada longitud="0.7139" latitud="40.8114" altitud="5"/>
+        </punto>
+        <punto>
+            <coordenada longitud="0.6069" latitud="40.7842" altitud="3"/>
+        </punto>
+        <punto>
+            <coordenada longitud="0.7083" latitud="40.7233" altitud="1"/>
+        </punto>
+        <punto>
+            <coordenada longitud="0.7414" latitud="40.6811" altitud="1"/>
+        </punto>
+        <punto>
+            <coordenada longitud="0.5806" latitud="40.7093" altitud="10"/>
+        </punto>
+        <punto>
+            <coordenada longitud="0.5211" latitud="40.8126" altitud="20"/>
+        </punto>
+        <punto>
+            <coordenada longitud="0.5300" latitud="40.8102" altitud="10"/>
+        </punto>
+        <punto>
+            <coordenada longitud="0.5133" latitud="40.9294" altitud="30"/>
+        </punto>
+        <punto>
+            <coordenada longitud="0.4711" latitud="40.9611" altitud="150"/>
+        </punto>
+        <punto>
+            <coordenada longitud="0.4386" latitud="40.9269" altitud="630"/>
+        </punto>
+        <punto>
+            <coordenada longitud="0.4842" latitud="40.7994" altitud="26"/>
+        </punto>
+        <punto>
+            <coordenada longitud="0.4986" latitud="40.7967" altitud="20"/>
+        </punto>
+        <punto>
+            <coordenada longitud="0.50389" latitud="40.8225" altitud="14"/>
+        </punto>
+    </puntos>
+
+    <vencedores>
+        <persona>Matthew Brennan</persona>
+        <persona diferencia="0:00:00">Jordi Meeus</persona>
+        <persona diferencia="0:00:00">Vincenzo Albanese</persona>
+    </vencedores>
+
+    <clasificados>
+        <persona>Tadej Pogačar</persona>
+        <persona diferencia="0:03:21">Primož Roglič</persona>
+        <persona diferencia="0:03:32">Enric Mas</persona>
+    </clasificados>
+
+    <equipos>
+        <equipo>UAE Team Emirates-XRG</equipo>
+        <equipo diferencia="0:06:20">Decathlon CMA CGM Team</equipo>
+        <equipo diferencia="0:10:26">Team Visma | Lease a Bike</equipo>
+    </equipos>
+</etapa>

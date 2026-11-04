@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="2.0" width="1100" height="700" viewBox="0 0 1100 700">
+  <rect x="0" y="0" width="1100" height="700" fill="white" stroke="white" stroke-width="0" />
+  <text x="550" y="32" fill="black" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="middle" style="font-weight: bold">Altimetría - Etapa 5: Falset. Costa Daurada - Roquetes. Terres de l'Ebre</text>
+  <line x1="80" y1="370" x2="1060" y2="370" stroke="#d0d0d0" stroke-width="1" />
+  <text x="72" y="374" fill="black" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end">0</text>
+  <line x1="80" y1="327.14" x2="1060" y2="327.14" stroke="#d0d0d0" stroke-width="1" />
+  <text x="72" y="331.14" fill="black" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end">100</text>
+  <line x1="80" y1="284.29" x2="1060" y2="284.29" stroke="#d0d0d0" stroke-width="1" />
+  <text x="72" y="288.29" fill="black" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end">200</text>
+  <line x1="80" y1="241.43" x2="1060" y2="241.43" stroke="#d0d0d0" stroke-width="1" />
+  <text x="72" y="245.43" fill="black" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end">300</text>
+  <line x1="80" y1="198.57" x2="1060" y2="198.57" stroke="#d0d0d0" stroke-width="1" />
+  <text x="72" y="202.57" fill="black" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end">400</text>
+  <line x1="80" y1="155.71" x2="1060" y2="155.71" stroke="#d0d0d0" stroke-width="1" />
+  <text x="72" y="159.71" fill="black" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end">500</text>
+  <line x1="80" y1="112.86" x2="1060" y2="112.86" stroke="#d0d0d0" stroke-width="1" />
+  <text x="72" y="116.86" fill="black" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end">600</text>
+  <line x1="80" y1="70" x2="1060" y2="70" stroke="#d0d0d0" stroke-width="1" />
+  <text x="72" y="74" fill="black" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end">700</text>
+  <text x="22" y="220" fill="black" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle" transform="rotate(-90 22 220)">Altitud (m)</text>
+  <line x1="80" y1="370" x2="80" y2="376" stroke="black" stroke-width="1" />
+  <text x="80" y="390" fill="black" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">0</text>
+  <line x1="193.1" y1="370" x2="193.1" y2="376" stroke="black" stroke-width="1" />
+  <text x="193.1" y="390" fill="black" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">20</text>
+  <line x1="306.2" y1="370" x2="306.2" y2="376" stroke="black" stroke-width="1" />
+  <text x="306.2" y="390" fill="black" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">40</text>
+  <line x1="419.3" y1="370" x2="419.3" y2="376" stroke="black" stroke-width="1" />
+  <text x="419.3" y="390" fill="black" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">60</text>
+  <line x1="532.39" y1="370" x2="532.39" y2="376" stroke="black" stroke-width="1" />
+  <text x="532.39" y="390" fill="black" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">80</text>
+  <line x1="645.49" y1="370" x2="645.49" y2="376" stroke="black" stroke-width="1" />
+  <text x="645.49" y="390" fill="black" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">100</text>
+  <line x1="758.59" y1="370" x2="758.59" y2="376" stroke="black" stroke-width="1" />
+  <text x="758.59" y="390" fill="black" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">120</text>
+  <line x1="871.69" y1="370" x2="871.69" y2="376" stroke="black" stroke-width="1" />
+  <text x="871.69" y="390" fill="black" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">140</text>
+  <line x1="984.79" y1="370" x2="984.79" y2="376" stroke="black" stroke-width="1" />
+  <text x="984.79" y="390" fill="black" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">160</text>
+  <text x="570" y="410" fill="black" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle">Distancia (km)</text>
+  <polyline points="80.00,220.00 83.40,214.00 110.64,245.71 119.02,253.86 144.45,275.71 200.92,348.57 272.54,355.00 301.52,331.43 420.97,309.14 463.31,367.86 522.77,368.71 590.98,369.57 625.14,369.57 712.22,365.71 790.64,361.43 795.61,365.71 879.02,357.14 910.30,305.71 939.59,100.00 1031.50,358.86 1039.31,361.43 1057.48,364.00 1060.00,366.10 1060.00,370.00 80.00,370.00 80.00,220.00" stroke="#b22222" fill="#e8c9a0" stroke-width="2" stroke-linejoin="round" />
+  <line x1="617.22" y1="369.57" x2="617.22" y2="370" stroke="#e6b800" stroke-width="1.5" stroke-dasharray="5,3" />
+  <circle cx="617.22" cy="369.57" r="5" fill="#e6b800" stroke="black" />
+  <text x="621.22" y="428" fill="black" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="start" transform="rotate(90 621.22 428)">Control de Amposta (95 km)</text>
+  <line x1="728.62" y1="364.82" x2="728.62" y2="370" stroke="#1f6fd1" stroke-width="1.5" stroke-dasharray="5,3" />
+  <circle cx="728.62" cy="364.82" r="5" fill="#1f6fd1" stroke="black" />
+  <text x="732.62" y="428" fill="black" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="start" transform="rotate(90 732.62 428)">Sprint intermedio de Tivenys (114.7 km)</text>
+  <line x1="728.62" y1="364.82" x2="728.62" y2="370" stroke="#1f6fd1" stroke-width="1.5" stroke-dasharray="5,3" />
+  <circle cx="728.62" cy="364.82" r="5" fill="#1f6fd1" stroke="black" />
+  <text x="748.62" y="428" fill="black" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="start" transform="rotate(90 748.62 428)">Sprint bonificado de Tivenys (114.7 km)</text>
+  <line x1="919.19" y1="243.27" x2="919.19" y2="370" stroke="#2e9e3e" stroke-width="1.5" stroke-dasharray="5,3" />
+  <circle cx="919.19" cy="243.27" r="5" fill="#2e9e3e" stroke="black" />
+  <text x="923.19" y="428" fill="black" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="start" transform="rotate(90 923.19 428)">Puerto de Paüls (148.4 km)</text>
+</svg>

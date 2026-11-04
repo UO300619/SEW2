@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026:Ciclista</title>
+
+    <meta name="author" content="Enol Ruiz Barcala" />
+    <meta name="description" content="Documento ciclista.html del proyecto LaVuelta2026" />
+    
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+
+    <link rel="icon" href="multimedia/favicon.ico" />
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html" title="Página principal de LaVuelta2026">LaVuelta2026</a></h1>
+        <nav>
+            <a href="index.html" title="Página principal de LaVuelta2026">Inicio</a>
+            <a href="ciclista.html" aria-current="page" title="Información sobre el ciclista">Ciclista</a>
+            <a href="equipo.html" title="Información sobre el equipo">Equipo</a>
+            <a href="etapa.html" title="Información sobre la etapa">Etapa</a>
+            <a href="meteorologia.html" title="Previsión meteorológica de la etapa">Meteorología</a>
+            <a href="clasificaciones.html" title="Clasificaciones de LaVuelta2026">Clasificaciones</a>
+            <a href="juegos.html" title="Juegos sobre LaVuelta2026">Juegos</a>
+            <a href="ayuda.html" title="Ayuda para usar el sitio web">Ayuda</a>
+        </nav>
+    </header>
+
+    <nav aria-label="migas">
+        <ol>
+            <li><a href="index.html" title="Página principal de LaVuelta2026">Inicio</a></li>
+            <li>>></li>
+            <li>Ciclista</li>
+        </ol>
+    </nav>
+
+    <main>
+        <h2>Victor Langellotti</h2>
+
+        <section>
+            <h3>Datos personales</h3>
+            <ul>
+                <li>Victor Langellotti</li>
+                <li>7 de junio de 1995</li>
+                <li>Mónaco</li>
+                <li>XDS Astana Team</li>
+                <li>184</li>
+            </ul>
+            <picture>
+                <source srcset="multimedia/victor-movil.png" media="(max-width: 768px)" width="150" height="228" />
+                <source srcset="multimedia/victor-tablet.png" media="(max-width: 1024px)" width="225" height="341" />
+                <img src="multimedia/victor.png" width="300" height="455" alt="Fotografía del ciclista Victor Langellotti con el maillot del XDS Astana Team" />
+            </picture>
+        </section>
+
+        <section>
+            <h3>Datos equipos</h3>
+            <ol>
+                <li>XDS Astana Team</li>
+                <li>INEOS Grenadiers</li>
+                <li>Burgos - BH</li>
+            </ol>
+        </section>
+
+        <section>
+            <h3>Temporada 2025</h3>
+            <table>
+                <caption>Resultados de la temporada 2025</caption>
+                <tr>
+                    <th scope="col" id="datos">Datos</th>
+                    <th scope="col" id="resultados">Resultados</th>
+                </tr>
+                <tr>
+                    <th scope="row" id="equipos">Equipos</th>
+                    <td headers="resultados equipos">1</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="victorias">Victorias de etapa</th>
+                    <td headers="resultados victorias">1</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="podios">Podios</th>
+                    <td headers="resultados podios">5</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="mejor-general">Mejor puesto en general</th>
+                    <td headers="resultados mejor-general">2</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="grandes-vueltas">Grandes vueltas</th>
+                    <td headers="resultados grandes-vueltas">1</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="maillots">Maillots</th>
+                    <td headers="resultados maillots">0</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h3>Multimedia</h3>
+            <p>Equipo <a href="https://www.lavuelta.es/es/equipo/XAT/xds-astana-team" title="Página del XDS Astana Team en la web oficial de La Vuelta">XDS Astana Team</a> en la Vuelta Ciclista a España 2026.</p>
+            <video controls poster="multimedia/XDSAstana.png">
+                <source src="multimedia/presentacionEquipos.webm" type="video/webm" />
+                <source src="multimedia/presentacionEquipos.mp4" type="video/mp4" />
+            </video>
+            <audio controls>
+                <source src="multimedia/AudioAstana.mp3" type="audio/mpeg" />
+                <source src="multimedia/AudioAstana.wav" type="audio/wav" />
+            </audio>
+        </section>
+    </main>
+
+    <footer>
+        <p>Enol Ruiz Barcala</p>
+        <address>
+            <a href="mailto:UO300619@uniovi.es">UO300619@uniovi.es</a>
+        </address>
+    </footer>
+</body>
+</html>
