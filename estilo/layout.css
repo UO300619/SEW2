@@ -67,6 +67,7 @@ body {
         "contenido"
         "pie";
     grid-template-rows: auto auto 1fr auto;
+    grid-template-columns: minmax(0, 1fr);
 }
 
 /* Especificidad: 001 */
