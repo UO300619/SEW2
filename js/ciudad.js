@@ -47,7 +47,7 @@ class Ciudad {
         parrafo.textContent = "Coordenadas del centro de " + this.nombre +
             ": latitud " + this.latitud + "º, longitud " + this.longitud +
             "º, altitud " + this.altitud + " m";
-        document.querySelector("main section").appendChild(parrafo);
+        document.querySelector("main section:first-of-type").appendChild(parrafo);
     }
 }
 

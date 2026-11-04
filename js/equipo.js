@@ -48,7 +48,7 @@ class Equipo {
         enlace.textContent = this.paginaWeb;
         parrafo.appendChild(document.createTextNode("Ficha del equipo en la web oficial de La Vuelta: "));
         parrafo.appendChild(enlace);
-        document.querySelector("main section").appendChild(parrafo);
+        document.querySelector("main section:first-of-type").appendChild(parrafo);
     }
 }
 
