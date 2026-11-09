@@ -9,6 +9,29 @@
 /*  Grupo de laboratorio: 5              */
 /* ***************************************/
 
+class Ciclista {
+    constructor(dorsal, nombre, apellidos, fechaNacimiento, nacionalidad, codigoNacionalidad) {
+        this.dorsal = dorsal;
+        this.nombre = nombre;
+        this.apellidos = apellidos;
+        this.fechaNacimiento = fechaNacimiento;
+        this.nacionalidad = nacionalidad;
+        this.codigoNacionalidad = codigoNacionalidad;
+    }
+
+    getNombreCompleto() {
+        return this.nombre + " – " + this.apellidos;
+    }
+
+    getDorsal() {
+        return this.dorsal;
+    }
+
+    getInformacionAdicional() {
+        return this.fechaNacimiento + ", " + this.nacionalidad;
+    }
+}
+
 class Equipo {
     constructor(nombre, codigoUCI, pais) {
         this.nombre = nombre;
@@ -17,6 +40,7 @@ class Equipo {
         this.director = "";
         this.categoria = "";
         this.paginaWeb = "";
+        this.alineacion = [];
     }
 
     rellenarAtributos(director, categoria, paginaWeb) {
@@ -50,6 +74,33 @@ class Equipo {
         parrafo.appendChild(enlace);
         document.querySelector("main section:first-of-type").appendChild(parrafo);
     }
+
+    async leerEquipo() {
+        const respuesta = await fetch("js/recursos/lavuelta.json");
+        const datos = await respuesta.json();
+        const equipo = datos.equipos.find(e => e.codigo_uci === this.codigoUCI);
+        this.alinearCiclistas(equipo.corredores);
+    }
+
+    alinearCiclistas(corredores) {
+        corredores.forEach(c => {
+            this.alineacion.push(new Ciclista(c.dorsal, c.nombre, c.apellidos, c.fecha_nacimiento, c.nacionalidad, c.nacionalidad_codigo));
+        });
+    }
+
+    mostrarAlineacion() {
+        const ordenados = [...this.alineacion].sort((a, b) => a.getDorsal() - b.getDorsal());
+        let html = "";
+        ordenados.forEach(ciclista => {
+            html += "<article>" +
+                "<h4>" + ciclista.getNombreCompleto() + "</h4>" +
+                "<img src=\"multimedia/ciclista.png\" alt=\"Icono de un ciclista genérico\" />" +
+                "<p>" + ciclista.getDorsal() + "</p>" +
+                "<p>" + ciclista.getInformacionAdicional() + "</p>" +
+                "</article>";
+        });
+        document.querySelector("main section:last-of-type").insertAdjacentHTML("beforeend", html);
+    }
 }
 
 const astana = new Equipo("XDS Astana Team", "XAT", "Kazajistán");
@@ -64,3 +115,5 @@ seccion.insertAdjacentHTML("beforeend", astana.getInformacionSecundaria());
 document.querySelector("main > h2").insertAdjacentElement("afterend", seccion);
 
 astana.getPaginaWeb();
+
+astana.leerEquipo().then(() => astana.mostrarAlineacion());
