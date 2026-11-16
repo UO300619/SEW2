@@ -14,11 +14,15 @@
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
 
     <link rel="icon" href="multimedia/favicon.ico" />
+
+    <script src="js/menu.js" defer></script>
+    <script src="js/buscador.js" defer></script>
 </head>
 
 <body>
     <header>
         <h1><a href="index.html" title="Página principal de LaVuelta2026">LaVuelta2026</a></h1>
+        <button type="button" aria-label="Abrir menú de navegación" aria-expanded="false">☰</button>
         <nav>
             <a href="index.html" title="Página principal de LaVuelta2026">Inicio</a>
             <a href="ciclista.html" title="Información sobre el ciclista">Ciclista</a>
@@ -30,6 +34,11 @@
             <a href="ayuda.html" aria-current="page" title="Ayuda para usar el sitio web">Ayuda</a>
         </nav>
     </header>
+
+    <search aria-label="Buscador">
+        <label for="busqueda"><img src="multimedia/buscador.png" alt="icono lupa" /></label>
+        <input type="search" id="busqueda" aria-label="Buscar" placeholder="Buscar…" />
+    </search>
 
     <nav aria-label="migas">
         <ol>
@@ -79,7 +88,13 @@
 
         <section>
             <h3>Ayuda</h3>
-            <p>Esta página explica el contenido y el funcionamiento de cada una de las opciones del menú de navegación de LaVuelta2026. Consúltala si tienes dudas sobre qué información encontrarás en cada apartado o cómo utilizarlo.</p>
+            <p>Esta página explica el contenido y el funcionamiento de cada una de las opciones del menú de navegación de LaVuelta2026, así como el uso del menú y del buscador. Consúltala si tienes dudas sobre qué información encontrarás en cada apartado o cómo utilizarlo.</p>
+        </section>
+
+        <section>
+            <h3>Menú de navegación y buscador</h3>
+            <p>En tabletas y móviles el menú de navegación de la cabecera aparece plegado: pulsa el botón ☰ para desplegar las opciones y el botón x para volver a plegarlas.</p>
+            <p>Todas las páginas incluyen, debajo de la cabecera y alineado a la derecha, un buscador para localizar textos dentro de la página que estás viendo. Escribe el texto en el campo "Buscar…" y pulsa la lupa o la tecla Intro: todas las apariciones del texto en la página se resaltan en amarillo, sin distinguir entre mayúsculas y minúsculas. Al hacer una nueva búsqueda se quita el resaltado de la anterior y se marcan los nuevos resultados.</p>
         </section>
     </main>
 
