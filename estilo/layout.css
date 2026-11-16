@@ -102,12 +102,6 @@ search {
 }
 
 /* Especificidad: 003 */
-search > label > img {
-    width: 16px;
-    height: 16px;
-}
-
-/* Especificidad: 003 */
 body > search + nav {
     grid-area: migas;
 }
