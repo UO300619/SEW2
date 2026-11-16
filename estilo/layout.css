@@ -220,4 +220,9 @@ footer > p {
         flex-direction: column; /*ADVERTENCIA: redefinición de la propiedad con valor original column */
         gap: 1em; /*ADVERTENCIA: redefinición de la propiedad con valor original 1em */
     }
+
+    /* Especificidad: 003 */
+    article h2 + img {
+        width: 100%;
+    }
 }

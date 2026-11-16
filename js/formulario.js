@@ -29,7 +29,6 @@ class Formulario {
             event.preventDefault();
             return;
         }
-        // Evita que se recargue la página al enviar el formulario
         event.preventDefault();
 
         this.puntuacion = 0;
@@ -89,7 +88,6 @@ class Formulario {
     calificar() {
         const form = document.querySelector("form");
 
-        // Si ya se había mostrado una calificación, se sustituye por la nueva
         if (this.parrafoCalificacion !== null) {
             this.parrafoCalificacion.remove();
         }

@@ -20,7 +20,6 @@ class Menu {
     desplegar() {
         const nav = document.querySelector("nav");
 
-        // toggle devuelve true si la clase queda añadida (menú abierto)
         const abierto = nav.classList.toggle("abierto");
 
         this.boton.textContent = abierto ? "x" : "☰";
